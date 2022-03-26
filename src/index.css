@@ -3,15 +3,7 @@ body {
   padding: 0;
   color: #1E1E1F;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  background: rgb(120,106,50);
-  background: radial-gradient(circle, 
-    rgba(120,106,50,0.8519782913165266) 0%, 
-    rgba(224,170,2,0.3757878151260504) 35%, 
-    rgba(227,188,9,0.7343312324929971) 37%, 
-    rgba(67,67,169,1) 54%, 
-    rgba(7,4,10,0.7763480392156863) 100%);
 }
-
 #root {
   margin: 0 24px;
   position: relative;
