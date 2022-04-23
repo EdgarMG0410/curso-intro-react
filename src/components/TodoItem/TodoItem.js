@@ -1,5 +1,6 @@
 import React from "react";
 import './TodoItem.css';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
 function TodoItem (props) {
     return(
@@ -14,15 +15,18 @@ function TodoItem (props) {
         {props.text}
       </p>
       <span 
-        className="Icon Icon-delete"
+        className="material-icons"
         onClick={props.onDelete}
       >
-        X
+      DeleteOutlineIcon
       </span>
     </li>
     );
 }
 
 export {TodoItem};
+
+
+
 
 

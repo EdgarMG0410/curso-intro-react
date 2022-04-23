@@ -1,12 +1,7 @@
-.TodoCounter {
-    margin: 20px 5%;
-    width: 90%;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #9de1fcd0;
-  }
 .TodoCounter h2{
   font-size: 24px;
   text-align: center;
-  color: white;
+  color: #1515158f;
+  margin-bottom: 4%;
+  margin-top: -3%;
 }
